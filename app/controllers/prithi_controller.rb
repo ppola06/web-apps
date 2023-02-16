@@ -1,0 +1,2 @@
+class PrithiController < ApplicationController
+end

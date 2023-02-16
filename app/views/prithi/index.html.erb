@@ -1,0 +1,19 @@
+<h1>Hi Prithi</h1>
+
+<% 
+family = ["Neeraja", "Pranith", "Nikkhil"] 
+%>
+
+<p> There are <%= family.count%> members in my family </p>
+
+<ul>
+    <li>Neeraja</li>
+    <li>Pranith</li>
+    <li>Nikkhil</li>
+</ul>
+
+<ul>
+    <% for x in family %>
+        <li><%= x %> </li>
+    <% end %>
+</ul>
